@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #008000, #00bfff);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilo para os itens do menu */
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    background-color: #008000; /* Cor de fundo verde */
+    color: #fff;  /* Cor do texto */
+    padding: 10px 20px;  /* Espaçamento interno */
+    text-decoration: none;  /* Retira o sublinhado */
+    border-radius: 25px;  /* Bordas arredondadas */
+    font-weight: bold;  /* Texto em negrito */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+nav a:hover {
+    background-color: #006400; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+    cursor: pointer; /* Cursor indicando interatividade */
+}
+
+/* Estilo quando o link é clicado (opcional) */
+nav a:active {
+    background-color: #004d00; /* Cor de fundo ao clicar */
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #008000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Garantindo que a imagem cubra o espaço sem distorcer */
+    border-radius: 10px;
+}
+
+.saiba-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.saiba-mais:hover {
+    background-color: #006400;
+    cursor: pointer;
+}
+
+/* Estilo para os botões de ação */
+.acao {
+    padding: 12px 24px;
+    background-color: #008000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.acao:hover {
+    background-color: #006400;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao passar o mouse */
+}
+
+.acao:active {
+    background-color: #004d00;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+footer {
+    background: linear-gradient(to right, #008000, #00bfff); /* Mesma cor do header */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;  /* Remove a margem padrão do parágrafo */
+    font-size: 14px; /* Ajuste de tamanho de texto */
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudança Climática: Nosso Planeta em Risco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mudança Climática: Nosso Planeta em Risco</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#causas">Causas</a></li>
+                <li><a href="#consequencias">Consequências</a></li>
+                <li><a href="#acoes">Ações</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h2>O futuro do planeta está em nossas mãos</h2>
+                <img src="imagens/Imagem de Urso Polar.jpg" alt="Urso polar em um bloco de gelo derretendo">
+                <p>Entenda o problema agora e faça a diferença!</p>
+                <a href="https://www.oc.eco.br/" target="_blank">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="causas">
+            <div class="container">
+                <h2>As Origens do Aquecimento Global</h2>
+                <div class="causa">
+                    <h3>Efeito Estufa</h3>
+                    <p>O efeito estufa é um processo natural que aquece a Terra, mas a intensificação desse efeito devido às atividades humanas é a principal causa da mudança climática.</p>
+                </div>
+                <div class="causa">
+                    <h3>Queima de Combustíveis Fósseis</h3>
+                    <p>A queima de combustíveis fósseis (carvão, petróleo e gás natural) libera gases de efeito estufa na atmosfera, intensificando o efeito estufa e aquecendo o planeta.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="consequencias">
+            <div class="container">
+                <h2>Impactos Devastadores no Planeta</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="imagens/Imagem de Desmatamento.jpg" alt="Desmatamento na Amazônia">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imagens/Imagem de Furacão.jpg" alt="Furacão devastando uma cidade">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imagens/Imagem de Incêndio Florestal.avif" alt="Incêndio florestal em larga escala">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acoes">
+            <div class="container">
+                <h2>Faça a Sua Parte: Soluções para um Futuro Sustentável</h2>
+                <a href="https://brasil.un.org/pt-br/255806-5-a%C3%A7%C3%B5es-para-um-mundo-mais-sustent%C3%A1vel" target="_blank">
+                    <button class="acao">Ações Individuais</button>
+                </a>
+                <a href="https://meiosustentavel.com.br/" target="_blank">
+                    <button class="acao">Ações Coletivas</button>
+                </a>
+                <a href="https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustent%C3%A1vel" target="_blank">
+                    <button class="acao">Iniciativas Globais</button>
+                </a>
+            </div>
+        </section>
+        
+
+        <section id="mapa">
+            <div class="container">
+                <h2>Mapa Interativo</h2>
+                <div id="map" style="height: 400px;"></div>
+            </div>
+        </section>
+
+        <section id="grafico">
+            <div class="container">
+                <h2>Gráfico Interativo</h2>
+                <canvas id="myChart" style="min-width: 600px;
+            margin: auto;"></canvas>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <div class="container">
+                <h2>Fique por Dentro: Notícias e Análises sobre a Crise Climática</h2>
+                <a href="https://g1.globo.com/meio-ambiente/" target="_blank">
+                    <button class="acao">Notícias e Análises do G1</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 - Mudança Climática | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
